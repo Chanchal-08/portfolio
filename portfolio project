@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chanchal Mishra- Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-color: #f8f8f8;
+      color: #333;
+    }
+
+    header {
+      background-color: #3498db;
+      color: #fff;
+      text-align: center;
+      padding: 50px 0;
+    }
+
+    header img {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+
+    h1, h2, h3 {
+      color: #3498db;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    button {
+      background-color: #3498db;
+      color: #fff;
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: #2980b9;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #3498db;
+      color: #fff;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="Chanchal_Mishra_IT.jpg" alt="Chanchal Mishra">
+    <h1>Chanchal Mishra</h1>
+    <p>Web Developer</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>
+      Welcome to my portfolio! I am a passionate web developer with expertise in front-end and back-end technologies.
+      ...
+      I am always keen on learning about new technologies and create attractive and approachable websites for potential users.
+      Currently pursuing a bachelors degree in the branch of information technology to further my motive and aim of being a web developer.
+    </p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>JavaScript</li>
+      <li>React</li>
+      <li>Node.js</li>
+      <li>Express.js</li>
+      <li>MongoDb</li>
+      <li>Java</li>
+      <li>C langauge</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <ul>
+      <li>
+        <h3>FURNITURE WEBSITE</h3>
+        <p>Furniture according to your preference price Front end Web Development
+          Website to find furniture according to your preference price , comfort and
+          decor of the house . Used frontend web development ( html ,css and
+          javascript )</p>
+      </li>
+      <li>
+        <h3>SEARCH & FIND LUXURY HOUSES</h3>
+        <p>Website to find luxurious house according to your preference location or prop￾erty price list . Used html , css and basics of javascript to design the pages
+          of the website and make it approachable to the users</p>
+      </li>
+      <li>
+        <h3>QR CODE SCANNER</h3>
+        <p>A project using front end development to generate different types of quick response code scanners for differnet purposes</p>
+      </li>
+      <li>
+        <h3>SPOTIFY MUSIC PAGE</h3>
+        <p>Used html css and javascript to form a spotify music page for a song 
+        </p>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <ul>
+      <li>Email: mishrachanchal002@gmail.com</li>
+      <li>LinkedIn: linkedin.com/in/ChanchalMishra</li>
+      <li>GitHub: github.com/Chanchal-08</li>
+    </ul>
+    <button onclick="window.location.href='ChanchalMishra_Resume.pdf'">Download Resume</button>
+  </section>
+
+  <footer>
+    &copy; 2023 Chanchal Mishra - Portfolio
+  </footer>
+
+</body>
+</html>
